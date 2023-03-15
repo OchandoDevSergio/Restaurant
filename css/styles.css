@@ -1,0 +1,75 @@
+body {
+    /* background-color: bisque; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+#subbodyindex {
+    /* background-color: blue; */
+    
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    z-index: -100;
+}
+
+#videoindex {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+}
+
+#bodyindex {
+    /* background-color:blueviolet; */
+    
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items:flex-start;
+    justify-content:baseline;
+
+    flex-direction: column;
+
+    position: absolute;
+
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+#upperspace {
+    /* background-color: crimson; */
+
+    height: 75vh;
+    width: 100vw;
+}
+
+#downspace {
+    /* background-color: chartreuse; */
+
+    height: 25vh;
+    width: 100vw;
+
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+    flex-direction: row;
+}
+
+.bisque {
+    background-color:bisque;
+}
