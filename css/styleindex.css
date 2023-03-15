@@ -50,14 +50,7 @@ body {
     z-index: 0;
 }
 
-#upperspace {
-    /* background-color: crimson; */
-
-    height: 75vh;
-    width: 100vw;
-}
-
-#downspace {
+#upspace {
     /* background-color: chartreuse; */
 
     height: 25vh;
@@ -67,9 +60,56 @@ body {
     align-items:center;
     justify-content:center;
 
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.borded {
+    border-radius: 10% 10% 10% 10%;
+}
+
+#downspace {
+    /* background-color: crimson; */
+
+    height: 75vh;
+    width: 100vw;
+
+    
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+    flex-direction: column;
 }
 
 .bisque {
     background-color:bisque;
+}
+
+.centred {
+    justify-content: center;
+}
+
+.mod1 {
+    background-color: bisque;
+
+    width: 20vw;
+
+    color: rgb(129, 25, 25);
+    border-color: rgb(129, 25, 25);
+}
+
+.mod2 {
+    background-color: bisque;
+
+    width: 15vw;
+
+    color: rgb(129, 25, 25);
+    border-color: rgb(129, 25, 25);
+}
+
+#viajar:hover {
+    background-color: rgb(245, 230, 213);
+
+    color: rgb(121, 40, 40);
+    border-color: rgb(129, 25, 25);
 }
