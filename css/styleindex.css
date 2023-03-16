@@ -81,6 +81,19 @@ body {
     flex-direction: column;
 }
 
+.dsrest {
+    /* background-color: aquamarine; */
+    
+    display: flex;
+    align-items:baseline;
+    justify-content:baseline;
+
+    height: 30vh;
+    width: 60vw;
+
+    flex-direction: row;
+}
+
 .bisque {
     background-color:bisque;
 }
@@ -112,4 +125,16 @@ body {
 
     color: rgb(121, 40, 40);
     border-color: rgb(129, 25, 25);
+}
+
+.restaurant {
+    background-color: blueviolet;
+
+    height: 30vh;
+    width: 30vw;
+}
+
+.picsize {
+    height: 60vh;
+    width: 100vw;
 }
