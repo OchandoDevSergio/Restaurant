@@ -120,6 +120,15 @@ body {
     border-color: rgb(129, 25, 25);
 }
 
+.mod3 {
+    background-color: bisque;
+
+    width: 10vw;
+
+    color: rgb(129, 25, 25);
+    border-color: rgb(129, 25, 25);
+}
+
 #viajar:hover {
     background-color: rgb(245, 230, 213);
 
