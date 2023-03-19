@@ -144,6 +144,14 @@ body {
 }
 
 .picsize {
-    height: 60vh;
-    width: 100vw;
+    /*El tamaño de las imágenes siempre en EM */
+    height: 20em;
+    width: 40em;
+}
+
+.carousel-inner {
+    height: 20em;
+    width: 40em;
+
+    border-radius: 2em;
 }
