@@ -59,6 +59,14 @@ body {
     align-items:center;
 }
 
+.downrowrest {
+    height: 75vh;
+    
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
 .dsrest {
     /* background-color: aquamarine; */
     
@@ -76,7 +84,7 @@ body {
     background-color:bisque;
 }
 
-.centred {
+.centered {
     justify-content: center;
     display: flex;
 }

@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+#subbodyindex {
+    /* background-color: blue; */
+    
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    z-index: -100;
+}
+
+#videoindex {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+}
+
+.container-fluid {
+    position: absolute;
+    z-index: 0;
+}
