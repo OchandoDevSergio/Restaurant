@@ -36,54 +36,27 @@ body {
     z-index: 0;
 }
 
-#bodyindex {
-    /* background-color:blueviolet; */
-    
-    height: 100%;
-    width: 100%;
-
-    display: flex;
-    align-items:flex-start;
-    justify-content:baseline;
-
-    flex-direction: column;
-
-    position: absolute;
-
-    margin: 0;
-    padding: 0;
-    z-index: 0;
-}
-
-#upspace {
+.uprow {
     /* background-color: chartreuse; */
 
     height: 25vh;
-    width: 100vw;
 
     display: flex;
     align-items:center;
     justify-content:center;
-
-    flex-direction: column;
 }
 
 .borded {
     border-radius: 10% 10% 10% 10%;
 }
 
-#downspace {
+.downrow {
     /* background-color: crimson; */
 
     height: 75vh;
-    width: 100vw;
 
-    
     display: flex;
     align-items:center;
-    justify-content:center;
-
-    flex-direction: column;
 }
 
 .dsrest {
@@ -105,6 +78,7 @@ body {
 
 .centred {
     justify-content: center;
+    display: flex;
 }
 
 .mod1 {
