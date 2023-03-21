@@ -22,6 +22,16 @@ body {
     z-index: -100;
 }
 
+.uprow {
+    /* background-color: chartreuse; */
+
+    height: 25vh;
+
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
 #videoindex {
     width: 100%;
     height: 100%;
@@ -32,4 +42,13 @@ body {
 .container-fluid {
     position: absolute;
     z-index: 0;
+}
+
+.borded {
+    border-radius: 10% 10% 10% 10%;
+}
+
+.centered {
+    justify-content: center;
+    display: flex;
 }

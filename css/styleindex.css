@@ -84,6 +84,18 @@ body {
     background-color:bisque;
 }
 
+.blue {
+    background-color: blue;
+
+    height: 25vh;
+}
+
+.red {
+    background-color: red;
+
+    height: 20vh;
+}
+
 .centered {
     justify-content: center;
     display: flex;
