@@ -157,3 +157,11 @@ body {
 
     border-radius: 2em;
 }
+
+.about {
+    background-color: bisque;
+    color: rgb(129, 25, 25);
+    border-color: rgb(129, 25, 25);
+
+    border: 1em solid;
+}
