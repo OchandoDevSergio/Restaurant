@@ -159,7 +159,7 @@ body {
 }
 
 .about {
-    height: 60vh;
+    height: 65vh;
    
     display: flex;
     align-items:center;
@@ -171,4 +171,17 @@ body {
     border-color: rgb(129, 25, 25);
 
     border: 0.1em solid;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    /* quita el subrayado y el color azul a los links */
+}
+
+.links {
+    color: rgb(129, 25, 25);
+}
+
+.links:hover {
+    color: rgba(127, 88, 88, 0.886);
 }
