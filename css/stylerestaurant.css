@@ -1,12 +1,47 @@
-.bodyrestaurant {
-    background-color: blueviolet;
+body {
+    background-color: bisque;
 
     height: 100vh;
     width: 100vw;
 
-    display: flex;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
     align-items:baseline;
-    justify-content:baseline;
+    justify-content:baseline; */
+/* 
+    flex-direction: column; */
+}
 
-    flex-direction: column;
+a:link, a:visited, a:active {
+    text-decoration:none;
+    /* quita el subrayado y el color azul a los links */
+}
+
+.borded {
+    border-radius: 10% 10% 10% 10%;
+
+    border: 0.1em solid rgb(129, 25, 25);
+}
+
+.centered {
+    justify-content: center;
+    display: flex;
+}
+
+.uprow {
+    height: 25vh;
+   
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.downrow {
+    background-color: crimson;
+
+    height: 75vh;
+
+    display: flex;
+    align-items:center;
 }

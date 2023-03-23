@@ -45,6 +45,8 @@ body {
 
 .borded {
     border-radius: 10% 10% 10% 10%;
+
+    border: 0.1em solid rgb(129, 25, 25);
 }
 
 .centered {
