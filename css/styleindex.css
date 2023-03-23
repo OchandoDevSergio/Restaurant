@@ -159,9 +159,16 @@ body {
 }
 
 .about {
+    height: 60vh;
+   
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+
     background-color: bisque;
     color: rgb(129, 25, 25);
     border-color: rgb(129, 25, 25);
 
-    border: 1em solid;
+    border: 0.1em solid;
 }
