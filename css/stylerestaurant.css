@@ -24,13 +24,20 @@ a:link, a:visited, a:active {
     border: 0.1em solid rgb(129, 25, 25);
 }
 
-.centered {
-    justify-content: center;
+.centeredrestaurant {
+    justify-content:center;
+    align-items:center;
     display: flex;
+    flex-direction: column;
+
+}
+
+.contacto {
+     color: rgb(129, 25, 25); 
 }
 
 .uprow {
-    height: 25vh;
+    height: 28vh;
    
     display: flex;
     align-items:center;
@@ -40,7 +47,7 @@ a:link, a:visited, a:active {
 .downrow {
     background-color: crimson;
 
-    height: 75vh;
+    height: 72vh;
 
     display: flex;
     align-items:center;
