@@ -55,5 +55,15 @@ a:link, a:visited, a:active {
     height: 92vh;
 
     display: flex;
+    justify-content:baseline;
+}
+
+.section {
+    height: 7vh;
+ 
+    display: flex;
     align-items:center;
+    justify-content:center;
+
+    background-color: bisque;
 }
