@@ -15,6 +15,7 @@ body {
 
 a:link, a:visited, a:active {
     text-decoration:none;
+    color: rgb(129, 25, 25); 
     /* quita el subrayado y el color azul a los links */
 }
 
@@ -32,8 +33,12 @@ a:link, a:visited, a:active {
 
 }
 
-.contacto {
+.colorfont {
      color: rgb(129, 25, 25); 
+}
+
+.bgcolor {
+    background-color: rgb(248, 212, 167);
 }
 
 .uprow {
@@ -45,10 +50,19 @@ a:link, a:visited, a:active {
 }
 
 .downrow {
-    background-color: crimson;
+    /* background-color: crimson; */
 
     height: 72vh;
 
     display: flex;
     align-items:center;
+}
+
+.picsrestaurant {
+    height: 20vw;
+    width: 60vh;
+}
+
+.links:hover {
+    color: rgba(127, 88, 88, 0.886);
 }
