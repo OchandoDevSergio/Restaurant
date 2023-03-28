@@ -9,11 +9,11 @@
 .altLow {
     height: 85em;
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
 
-    flex-direction: column;
+    flex-direction: column; */
 
     background-color: rgb(248, 212, 167);
 }
@@ -61,8 +61,8 @@
     height: 10em;
 }
 
-.section {
-    height: 7vh;
+.sectionname {
+    height: 3em;
  
     display: flex;
     align-items:center;
@@ -72,6 +72,18 @@
     border: 0.1em solid rgb(129, 25, 25);
 
     background-color: bisque;
+}
+
+.heightsn {
+    height: 4em;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
 }
 
 .aligned {
