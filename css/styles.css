@@ -1,0 +1,83 @@
+
+.altHigh {
+
+    height: 15em;
+
+    background-color:bisque;
+}
+
+.altLow {
+    height: 85em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    background-color: rgb(248, 212, 167);
+}
+
+.high {
+
+    /* background-color: chocolate; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.highright {
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+
+    flex-direction: column;
+}
+
+.picture {
+
+    width: 10em;
+    height: 6em;
+}
+
+.borded {
+    border-radius: 10% 10% 10% 10%;
+    
+    margin: 0;
+    padding: 0;
+
+    border: 0.1em solid rgb(129, 25, 25);
+}
+
+.colorfont {
+    color: rgb(129, 25, 25); 
+}
+
+.flagpicture {
+    width: 20em;
+    height: 10em;
+}
+
+.section {
+    height: 7vh;
+ 
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius: 10% 10% 10% 10%;
+    border: 0.1em solid rgb(129, 25, 25);
+
+    background-color: bisque;
+}
+
+.aligned {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+    flex-direction: column;
+}
