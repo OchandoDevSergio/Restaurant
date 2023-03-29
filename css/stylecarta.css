@@ -1,4 +1,10 @@
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: rgb(129, 25, 25); 
+    /* quita el subrayado y el color azul a los links */
+}
+
 .altHigh {
     background-color:bisque;
 }
