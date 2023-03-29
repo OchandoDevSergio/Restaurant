@@ -1,3 +1,6 @@
+.body {
+    background-color: rgb(248, 212, 167);
+}
 
 .altHigh {
 
@@ -7,7 +10,7 @@
 }
 
 .altLow {
-    height: 85em;
+    height: 102em;
 
     /* display: flex;
     justify-content: center;
