@@ -96,3 +96,17 @@
 
     flex-direction: column;
 }
+
+.dishnames {
+    display: flex;
+    justify-content:baseline;
+
+    flex-direction: row;
+}
+
+.dishprices {
+    display: flex;
+    justify-content: end;
+
+    flex-direction: row;
+}
