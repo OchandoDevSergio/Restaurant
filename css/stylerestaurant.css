@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(248, 212, 167);
+}
 
 a:link, a:visited, a:active {
     text-decoration:none;
@@ -7,10 +10,6 @@ a:link, a:visited, a:active {
 
 .altHigh {
     background-color:bisque;
-}
-
-.altLow {
-    background-color: rgb(248, 212, 167);
 }
 
 .high {
@@ -59,6 +58,15 @@ a:link, a:visited, a:active {
 }
 
 .pics {
-    height: 10em;
-    width: 15em;
+    height: 15em;
+    width: 20em;
+}
+
+.space1 {
+    height: 1.5em;
+    background-color: bisque;
+}
+
+.space2 {
+    height: 1.5em;
 }
