@@ -90,18 +90,6 @@ body {
     background-color:bisque;
 }
 
-.blue {
-    background-color: blue;
-
-    height: 25vh;
-}
-
-.red {
-    background-color: red;
-
-    height: 20vh;
-}
-
 .centered {
     justify-content: center;
     display: flex;
@@ -110,7 +98,7 @@ body {
 .mod1 {
     background-color: bisque;
 
-    width: 20vw;
+    width: 15em;
 
     color: rgb(129, 25, 25);
     border-color: rgb(129, 25, 25);
@@ -119,7 +107,7 @@ body {
 .mod2 {
     background-color: bisque;
 
-    width: 15vw;
+    width: 15em;
 
     color: rgb(129, 25, 25);
     border-color: rgb(129, 25, 25);
