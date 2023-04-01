@@ -58,26 +58,62 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="reservaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="reservaModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+      <div class="modal-header bisque">
+        <h1 class="modal-title fs-5 colorfont bisque" id="exampleModalToggleLabel">Realice su reserva</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body bisque colorfont">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Introduzca su nombre</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre del reservante">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Introduzca un número de contacto</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="número de teléfono">
+        </div>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+          <option selected>Día de la semana</option>
+          <option value="1">Martes</option>
+          <option value="2">Miércoles</option>
+          <option value="3">Jueves</option>
+          <option value="4">Viernes</option>
+          <option value="5">Sábado</option>
+          <option value="6">Domingo</option>
+        </select>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+          <option selected>Horario</option>
+          <option value="1">13:00 a 14:30</option>
+          <option value="2">14:30 a 16:00</option>
+          <option value="3">16:00 a 17:30</option>
+          <option value="4">17:30 a 19:00</option>
+          <option value="5">19:00 a 20:30</option>
+          <option value="6">20:30 a 22:00</option>
+          <option value="7">22:00 a 23:30</option>
+        </select>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="modal-footer bisque colorfont">
+        <button class="btn btn-primary colorfont colorbutton" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Confirmar reserva</button>
       </div>
     </div>
   </div>
 </div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <!-- <div class="modal-header bisque colorfont">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <div class="modal-body bisque colorfont ">
+        Su reserva en Journey Abjasia se ha realizado con éxito.
       </div>
-      <div class="col"></div>
     </div>
+  </div>
+</div>
+
 
 
 

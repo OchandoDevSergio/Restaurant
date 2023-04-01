@@ -70,3 +70,19 @@ a:link, a:visited, a:active {
 .space2 {
     height: 1.5em;
 }
+
+.bisque {
+    background-color: bisque;
+}
+
+.colorbutton {
+    background-color: rgb(234, 174, 101);
+
+    border: 0.1em solid rgb(129, 25, 25);
+}
+
+.colorbutton:hover {
+    color: rgb(126, 89, 41);
+    background-color: rgb(233, 142, 30);
+    border: 0.1em solid rgb(129, 25, 25);
+}
