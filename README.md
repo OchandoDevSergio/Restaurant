@@ -1,19 +1,39 @@
-<em>Proyecto: Web de un restaurante con bootstrap, imágenes y vídeo.</em>
 
+
+
+# Proyecto: Web de un restaurante con bootstrap, imágenes y vídeo.
+
+#### Indice 
+
+- [Descripción del proyecto :capital_abcd:](#Descripcion-del-proyecto)
+
+- [Tecnologías empleadas :hammer:](###tecnologias-empleadas) 
+
+- [Funcionamiento de la página :arrow_forward:](#Funcionamiento-de-la-página) 
+
+
+- [Errores conocidos y prestaciones por desarrollar :no_entry:](#Errores-conocidos-y-prestaciones-por-desarrollar)  
+
+#
+
+
+# Descripción del proyecto
 
 El proyecto consiste en la elaboración de una página web para un restaurante, inspirándonos en el ejemplo de la web de algún restaurante real. Habría de contener al menos una página principal, una carta, una galería, un apartado de reservas y además en su interior: imágenes, vídeo y elementos de bootstrap. Además habría de tratar de hacer el proyecto responsive para adaptarse a diferentes formatos de pantalla. 
 
-Tecnologías empleadas:
+### Tecnologías empleadas
+
 HTML5 (utilizando un container-fluid y grid en lugar de display flex siempre que se ha podido para tener el resultado más responsive que el tiempo destinado al proyecto nos ha permitido alcanzar).
 CSS3 (incluyendo técnicas como generar diferentes capas con z-index para poder poner un vídeo de fondo en index.html, about.html y restaurants.html).
 Bootstrap:
-  -Carrusel (poner imagen del original de bootrap con sus 3 opciones y cómo lo hemos modificado para que además contenga 4).
-  -Modales para las imágenes de las galerías (mostrar el original de bootstrap y el nuestro).
-  -Modales dobles para la realización de las reservas (mostrar el original de bootstrap y el nuestro).
-  -Forms integrados en el modal doble para introducir los datos de reserva (mostrar el original de bootstrap y el nuestro).
+-Carrusel (poner imagen del original de bootrap con sus 3 opciones y cómo lo hemos modificado para que además contenga 4).
+-Modales para las imágenes de las galerías (mostrar el original de bootstrap y el nuestro).
+-Modales dobles para la realización de las reservas (mostrar el original de bootstrap y el nuestro).
+-Forms integrados en el modal doble para introducir los datos de reserva (mostrar el original de bootstrap y el nuestro).
 
 
-Cómo funciona la página:
+### Funcionamiento de la página
+
   La página inicia en un index.html que nos permite a través de unos links centrales dirigirnos a restaurants.html o about.html.
   (foto de index.html)
 
@@ -31,4 +51,7 @@ Cómo funciona la página:
   En galeria.html encontramos modales con las fotos asociadas a la respectiva opción de restauración y links para regresar a la página principal de la misma o a index.html.
   (Foto de galeria.html)
 
-No se ha podido disponer de el tiempo necesario para tornar about.html y restaurants.html totalmente responsives. Además en cuanto al sistema de recogida de reservas, simplemente se ha introducido un form que no recoge ningún dato ni gestiona ninguna reserva real.  
+### Errores conocidos y prestaciones por desarrollar
+
+No se ha podido disponer de el tiempo necesario para tornar about.html y restaurants.html totalmente responsives. Además en cuanto al sistema de recogida de reservas, simplemente se ha introducido un form que no recoge ningún dato ni gestiona ninguna reserva real. 
+(Foto del form) 
