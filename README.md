@@ -5,14 +5,14 @@
 
 #### Indice 
 
-- [Descripción del proyecto :capital_abcd:](#Descripcion-del-proyecto)
+- [Descripción del proyecto :capital_abcd:](#descripción-del-proyecto)
 
-- [Tecnologías empleadas :hammer:](###tecnologias-empleadas) 
+- [Tecnologías empleadas :hammer:](#tecnologías-empleadas) 
 
-- [Funcionamiento de la página :arrow_forward:](#Funcionamiento-de-la-página) 
+- [Funcionamiento de la página :arrow_forward:](#funcionamiento-de-la-página) 
 
 
-- [Errores conocidos y prestaciones por desarrollar :no_entry:](#Errores-conocidos-y-prestaciones-por-desarrollar)  
+- [Errores conocidos y prestaciones por desarrollar :no_entry:](#errores-conocidos-y-prestaciones-por-desarrollar)  
 
 #
 
@@ -21,7 +21,7 @@
 
 El proyecto consiste en la elaboración de una página web para un restaurante, inspirándonos en el ejemplo de la web de algún restaurante real. Habría de contener al menos una página principal, una carta, una galería, un apartado de reservas y además en su interior: imágenes, vídeo y elementos de bootstrap. Además habría de tratar de hacer el proyecto responsive para adaptarse a diferentes formatos de pantalla. 
 
-### Tecnologías empleadas
+# Tecnologías empleadas
 
 HTML5 (utilizando un container-fluid y grid en lugar de display flex siempre que se ha podido para tener el resultado más responsive que el tiempo destinado al proyecto nos ha permitido alcanzar).
 CSS3 (incluyendo técnicas como generar diferentes capas con z-index para poder poner un vídeo de fondo en index.html, about.html y restaurants.html).
