@@ -35,23 +35,32 @@ Bootstrap:
 ### Funcionamiento de la página
 
   La página inicia en un index.html que nos permite a través de unos links centrales dirigirnos a restaurants.html o about.html.
-  (foto de index.html)
+  
+  ![](https://i.ibb.co/5LFK2qR/index.jpg)
 
   En about.html encontramos una declaración comercial del grupo restaurador y diferentes links que nos conducen o a index.html de nuevo o a las respectivas páginas de las diferentes propuestas de restauración.
-  (Foto de about.html)
+ 
+   ![](https://i.ibb.co/VvZk2wy/about.jpg)
 
   En restaurants.html encontramos un link de regreso a index.html y un carrusel con links a las diferentes opciones de restauración ofrecidas.
-  (Foto de restaurants.html)
+
+   ![](https://i.ibb.co/dM08XrF/restaurants.jpg)
 
   En las páginas principales de cada opción de restauración (abjasia.html, bangkok.html, caracas.html y toscana.html), encontramos: un link de regreso a index.html, un link que nos conduciría a su carta (carta.html), un link que nos conduciría a s galería de imágenes (galeria.html) y un modal para recoger reservas.
-  (Foto de abjasia.html)
+
+   ![](https://i.ibb.co/bBf3Zjk/abjasia.jpg)
 
   En carta.html encontramos simplemente la información del respectivo menú, un link a index.html y otro a la página principal de la respectiva opción de restauración (ej.: abjasia.html).
-  (Foto de carta.html)
+
+   ![](https://i.ibb.co/JjhcpTD/carta.jpg)
+
   En galeria.html encontramos modales con las fotos asociadas a la respectiva opción de restauración y links para regresar a la página principal de la misma o a index.html.
-  (Foto de galeria.html)
+  
+   ![](https://i.ibb.co/g9w7ZFQ/galeria.jpg)
 
 ### Errores conocidos y prestaciones por desarrollar
 
 No se ha podido disponer de el tiempo necesario para tornar about.html y restaurants.html totalmente responsives. Además en cuanto al sistema de recogida de reservas, simplemente se ha introducido un form que no recoge ningún dato ni gestiona ninguna reserva real. 
-(Foto del form) 
+
+   ![](https://i.ibb.co/cFQn5x3/form.jpg)
+
